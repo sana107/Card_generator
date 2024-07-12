@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.div{
+    width: 40%;
+    height:50% ;
+    background-color: rgb(208, 158, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.regular{
+    width:100% ;
+    height: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    padding-inline: 3%;
+}
+.regular h2{
+    color: white;
+}
+
+#btn1{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(227, 197, 255);
+
+    border-radius: 5px;
+    font-weight: bolder;
+
+    background-color: white;
+    margin-left: 35%;
+}
+
+
+#box{
+    width: 25%;
+    height:35% ;
+    background-color: rgb(206, 182, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 1%;
+    
+}
+#box h2{
+    color: white;
+}
+
+p{
+    width:100% ;
+    height:50% ;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 10%;
+
+}
+#tbuser{
+    width: 90%;
+    height: 15%;
+    border-radius: 5px;
+    border: none;
+}
+#tbpass{
+    width: 90%;
+    height: 15%;
+    border-radius: 5px;
+    border: none;
+}
+#tbmail{
+    width: 90%;
+    height: 15%;
+    border-radius: 5px;
+    border: none;
+}
+
+#list1{
+    width: 50%;
+    height: 15%;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+}
